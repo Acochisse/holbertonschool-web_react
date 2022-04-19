@@ -1,0 +1,405 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'typescript' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData typescript
+8 silly fetchNamedPackageData typescript
+9 silly mapToRegistry name typescript
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/typescript
+13 verbose request uri https://registry.npmjs.org/typescript
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 12:57:39 PM
+16 verbose request id 377462deb093ab80
+17 http request GET https://registry.npmjs.org/typescript
+18 http 200 https://registry.npmjs.org/typescript
+19 verbose headers { date: 'Tue, 19 Apr 2022 17:57:20 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'cf-ray': '6fe785a138050bbe-DFW',
+19 verbose headers   'access-control-allow-origin': '*',
+19 verbose headers   age: '15',
+19 verbose headers   'cache-control': 'public, max-age=300',
+19 verbose headers   etag: 'W/"40ada6c72c07d9066d65eb94a56842c0"',
+19 verbose headers   'last-modified': 'Tue, 19 Apr 2022 07:17:22 GMT',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'cf-cache-status': 'HIT',
+19 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 verbose headers   'x-amz-replication-status': 'PENDING',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Tue, 19 Apr 2022 17:57:20 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'cf-ray': '6fe785a138050bbe-DFW',
+20 silly get     'access-control-allow-origin': '*',
+20 silly get     age: '15',
+20 silly get     'cache-control': 'public, max-age=300',
+20 silly get     etag: 'W/"40ada6c72c07d9066d65eb94a56842c0"',
+20 silly get     'last-modified': 'Tue, 19 Apr 2022 07:17:22 GMT',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'cf-cache-status': 'HIT',
+20 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 silly get     'x-amz-replication-status': 'PENDING',
+20 silly get     server: 'cloudflare',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving typescript to /home/ac0chisse/.npm/registry.npmjs.org/typescript/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule typescript@4.6.3 checking installable status
+35 silly cache add args [ 'typescript', null ]
+36 verbose cache add spec typescript
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'typescript',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'typescript',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed typescript@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for typescript
+40 info addNameTag [ 'typescript', 'latest' ]
+41 silly mapToRegistry name typescript
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/typescript
+45 verbose addNameTag registry:https://registry.npmjs.org/typescript not in flight; fetching
+46 verbose get https://registry.npmjs.org/typescript not expired, no request
+47 silly addNameTag next cb for typescript with tag latest
+48 silly addNamed typescript@4.6.3
+49 verbose addNamed "4.6.3" is a plain semver version for typescript
+50 silly mapToRegistry name typescript
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/typescript
+54 verbose addRemoteTarball https://registry.npmjs.org/typescript/-/typescript-4.6.3.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/typescript/-/typescript-4.6.3.tgz',
+55 verbose addRemoteTarball   'eefeafa6afdd31d725584c67a0eaba80f6fc6c6c' ]
+56 info retry fetch attempt 1 at 12:57:41 PM
+57 info attempt registry request try #1 at 12:57:41 PM
+58 http fetch GET https://registry.npmjs.org/typescript/-/typescript-4.6.3.tgz
+59 http fetch 200 https://registry.npmjs.org/typescript/-/typescript-4.6.3.tgz
+60 silly fetchAndShaCheck shasum eefeafa6afdd31d725584c67a0eaba80f6fc6c6c
+61 verbose addTmpTarball /tmp/npm-4699-baf84ee5/registry.npmjs.org/typescript/-/typescript-4.6.3.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for typescript@4.6.3
+63 silly cache afterAdd typescript@4.6.3
+64 verbose afterAdd /home/ac0chisse/.npm/typescript/4.6.3/package/package.json not in flight; writing
+65 verbose afterAdd /home/ac0chisse/.npm/typescript/4.6.3/package/package.json written
+66 silly loadAllDepsIntoIdealTree Finishing
+67 silly idealTree:prePrune 0x04-TypeScript
+67 silly idealTree:prePrune ├── babel@6.23.0
+67 silly idealTree:prePrune └── typescript@4.6.3
+68 silly loadIdealTree Finishing
+69 silly currentTree 0x04-TypeScript
+69 silly currentTree └── babel@6.23.0
+70 silly idealTree 0x04-TypeScript
+70 silly idealTree ├── babel@6.23.0
+70 silly idealTree └── typescript@4.6.3
+71 silly generateActionsToTake Starting
+72 silly install generateActionsToTake
+73 silly generateActionsToTake Finishing
+74 silly diffTrees action count 2
+75 silly diffTrees update babel@6.23.0
+76 silly diffTrees add typescript@4.6.3
+77 silly decomposeActions action count 16
+78 silly decomposeActions fetch babel@6.23.0
+79 silly decomposeActions extract babel@6.23.0
+80 silly decomposeActions test babel@6.23.0
+81 silly decomposeActions preinstall babel@6.23.0
+82 silly decomposeActions build babel@6.23.0
+83 silly decomposeActions install babel@6.23.0
+84 silly decomposeActions postinstall babel@6.23.0
+85 silly decomposeActions finalize babel@6.23.0
+86 silly decomposeActions fetch typescript@4.6.3
+87 silly decomposeActions extract typescript@4.6.3
+88 silly decomposeActions test typescript@4.6.3
+89 silly decomposeActions preinstall typescript@4.6.3
+90 silly decomposeActions build typescript@4.6.3
+91 silly decomposeActions install typescript@4.6.3
+92 silly decomposeActions postinstall typescript@4.6.3
+93 silly decomposeActions finalize typescript@4.6.3
+94 silly executeActions Starting
+95 silly install executeActions
+96 silly doSerial global-install 0
+97 silly doParallel fetch 2
+98 verbose lock using /home/ac0chisse/.npm/_locks/staging-36582c8efccaf1bd.lock for /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging
+99 silly doParallel extract 2
+100 silly extract babel@6.23.0
+101 silly extract typescript@4.6.3
+102 verbose unbuild node_modules/.staging/typescript-8c7d4fd2
+103 warn deprecated babel@6.23.0: In 6.x, the babel package has been deprecated in favor of babel-cli. Check https://opencollective.com/babel to support the Babel maintainers
+104 verbose unbuild node_modules/.staging/babel-4bec5f13
+105 silly gentlyRm /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/typescript-8c7d4fd2 is being purged from base /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript
+106 verbose gentlyRm don't care about contents; nuking /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/typescript-8c7d4fd2
+107 silly gentlyRm /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/babel-4bec5f13 is being purged from base /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript
+108 verbose gentlyRm don't care about contents; nuking /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/babel-4bec5f13
+109 verbose tar unpack /home/ac0chisse/.npm/typescript/4.6.3/package.tgz
+110 verbose tar unpacking to /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/typescript-8c7d4fd2
+111 silly gentlyRm /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/typescript-8c7d4fd2 is being purged
+112 verbose gentlyRm don't care about contents; nuking /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/typescript-8c7d4fd2
+113 verbose tar unpack /home/ac0chisse/.npm/babel/6.23.0/package.tgz
+114 verbose tar unpacking to /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/babel-4bec5f13
+115 silly gentlyRm /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/babel-4bec5f13 is being purged
+116 verbose gentlyRm don't care about contents; nuking /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/babel-4bec5f13
+117 silly gunzTarPerm modes [ '755', '644' ]
+118 silly gunzTarPerm modes [ '755', '644' ]
+119 silly gunzTarPerm extractEntry bin/tsc
+120 silly gunzTarPerm extractEntry package.json
+121 silly gunzTarPerm extractEntry .npmignore
+122 silly gunzTarPerm extractEntry README.md
+123 silly gunzTarPerm extractEntry bin/tsserver
+124 silly gunzTarPerm extractEntry lib/cancellationToken.js
+125 silly gunzTarPerm extractEntry index.js
+126 silly gunzTarPerm extractEntry lib/cli.js
+127 silly gunzTarPerm extractEntry lib/tsc.js
+128 silly gentlyRm /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/babel-4bec5f13/node_modules is being purged
+129 verbose gentlyRm don't care about contents; nuking /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/babel-4bec5f13/node_modules
+130 silly gunzTarPerm extractEntry lib/tsserver.js
+131 silly gunzTarPerm extractEntry lib/tsserverlibrary.js
+132 silly gunzTarPerm extractEntry lib/typescript.js
+133 silly gunzTarPerm extractEntry lib/typescriptServices.js
+134 silly gunzTarPerm extractEntry lib/typingsInstaller.js
+135 silly gunzTarPerm extractEntry lib/watchGuard.js
+136 silly gunzTarPerm extractEntry lib/cs/diagnosticMessages.generated.json
+137 silly gunzTarPerm extractEntry lib/de/diagnosticMessages.generated.json
+138 silly gunzTarPerm extractEntry lib/es/diagnosticMessages.generated.json
+139 silly gunzTarPerm extractEntry lib/fr/diagnosticMessages.generated.json
+140 silly gunzTarPerm extractEntry lib/it/diagnosticMessages.generated.json
+141 silly gunzTarPerm extractEntry lib/ja/diagnosticMessages.generated.json
+142 silly gunzTarPerm extractEntry lib/ko/diagnosticMessages.generated.json
+143 silly gunzTarPerm extractEntry lib/pl/diagnosticMessages.generated.json
+144 silly gunzTarPerm extractEntry lib/pt-br/diagnosticMessages.generated.json
+145 silly gunzTarPerm extractEntry lib/ru/diagnosticMessages.generated.json
+146 silly gunzTarPerm extractEntry lib/tr/diagnosticMessages.generated.json
+147 silly gunzTarPerm extractEntry lib/zh-cn/diagnosticMessages.generated.json
+148 silly gunzTarPerm extractEntry lib/zh-tw/diagnosticMessages.generated.json
+149 silly gunzTarPerm extractEntry package.json
+150 silly gunzTarPerm extractEntry lib/typesMap.json
+151 silly gunzTarPerm extractEntry loc/lcl/CHS/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+152 silly gunzTarPerm extractEntry loc/lcl/CHT/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+153 silly gunzTarPerm extractEntry loc/lcl/CSY/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+154 silly gunzTarPerm extractEntry loc/lcl/DEU/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+155 silly gunzTarPerm extractEntry loc/lcl/ESN/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+156 silly gunzTarPerm extractEntry loc/lcl/FRA/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+157 silly gunzTarPerm extractEntry loc/lcl/ITA/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+158 silly gunzTarPerm extractEntry loc/lcl/JPN/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+159 silly gunzTarPerm extractEntry loc/lcl/KOR/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+160 silly gunzTarPerm extractEntry loc/lcl/PLK/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+161 silly gunzTarPerm extractEntry loc/lcl/PTB/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+162 silly gunzTarPerm extractEntry loc/lcl/RUS/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+163 silly gunzTarPerm extractEntry loc/lcl/TRK/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+164 silly gunzTarPerm extractEntry loc/lcl/CHS/Targets/ProjectItemsSchema.xaml.lcl
+165 silly gunzTarPerm extractEntry loc/lcl/CHT/Targets/ProjectItemsSchema.xaml.lcl
+166 silly gunzTarPerm extractEntry loc/lcl/CSY/Targets/ProjectItemsSchema.xaml.lcl
+167 silly gunzTarPerm extractEntry loc/lcl/DEU/Targets/ProjectItemsSchema.xaml.lcl
+168 silly gunzTarPerm extractEntry loc/lcl/ESN/Targets/ProjectItemsSchema.xaml.lcl
+169 silly gunzTarPerm extractEntry loc/lcl/FRA/Targets/ProjectItemsSchema.xaml.lcl
+170 silly gunzTarPerm extractEntry loc/lcl/ITA/Targets/ProjectItemsSchema.xaml.lcl
+171 silly gunzTarPerm extractEntry loc/lcl/JPN/Targets/ProjectItemsSchema.xaml.lcl
+172 silly gunzTarPerm extractEntry loc/lcl/KOR/Targets/ProjectItemsSchema.xaml.lcl
+173 silly gunzTarPerm extractEntry loc/lcl/PLK/Targets/ProjectItemsSchema.xaml.lcl
+174 silly gunzTarPerm extractEntry loc/lcl/PTB/Targets/ProjectItemsSchema.xaml.lcl
+175 silly gunzTarPerm extractEntry loc/lcl/RUS/Targets/ProjectItemsSchema.xaml.lcl
+176 silly gunzTarPerm extractEntry loc/lcl/TRK/Targets/ProjectItemsSchema.xaml.lcl
+177 silly gunzTarPerm extractEntry loc/lcl/CHS/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+178 silly gunzTarPerm extractEntry loc/lcl/CHT/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+179 silly gunzTarPerm extractEntry loc/lcl/CSY/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+180 silly gunzTarPerm extractEntry loc/lcl/DEU/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+181 silly gunzTarPerm extractEntry loc/lcl/ESN/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+182 silly gunzTarPerm extractEntry loc/lcl/FRA/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+183 silly gunzTarPerm extractEntry loc/lcl/ITA/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+184 silly gunzTarPerm extractEntry loc/lcl/JPN/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+185 silly gunzTarPerm extractEntry loc/lcl/KOR/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+186 silly gunzTarPerm extractEntry loc/lcl/PLK/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+187 silly gunzTarPerm extractEntry loc/lcl/PTB/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+188 silly gunzTarPerm extractEntry loc/lcl/RUS/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+189 silly gunzTarPerm extractEntry loc/lcl/TRK/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+190 silly gunzTarPerm extractEntry loc/lcl/CHS/Targets/TypeScriptCompile.xaml.lcl
+191 silly gunzTarPerm extractEntry loc/lcl/CHT/Targets/TypeScriptCompile.xaml.lcl
+192 silly gunzTarPerm extractEntry loc/lcl/CSY/Targets/TypeScriptCompile.xaml.lcl
+193 silly gunzTarPerm extractEntry loc/lcl/DEU/Targets/TypeScriptCompile.xaml.lcl
+194 silly gunzTarPerm extractEntry loc/lcl/ESN/Targets/TypeScriptCompile.xaml.lcl
+195 silly gunzTarPerm extractEntry loc/lcl/FRA/Targets/TypeScriptCompile.xaml.lcl
+196 silly gunzTarPerm extractEntry loc/lcl/ITA/Targets/TypeScriptCompile.xaml.lcl
+197 silly gunzTarPerm extractEntry loc/lcl/JPN/Targets/TypeScriptCompile.xaml.lcl
+198 silly gunzTarPerm extractEntry loc/lcl/KOR/Targets/TypeScriptCompile.xaml.lcl
+199 silly gunzTarPerm extractEntry loc/lcl/PLK/Targets/TypeScriptCompile.xaml.lcl
+200 silly gunzTarPerm extractEntry loc/lcl/PTB/Targets/TypeScriptCompile.xaml.lcl
+201 silly gunzTarPerm extractEntry loc/lcl/RUS/Targets/TypeScriptCompile.xaml.lcl
+202 silly gunzTarPerm extractEntry loc/lcl/TRK/Targets/TypeScriptCompile.xaml.lcl
+203 silly gunzTarPerm extractEntry loc/lcl/CHS/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+204 silly gunzTarPerm extractEntry loc/lcl/CHT/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+205 silly gunzTarPerm extractEntry loc/lcl/CSY/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+206 silly gunzTarPerm extractEntry loc/lcl/DEU/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+207 silly gunzTarPerm extractEntry loc/lcl/ESN/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+208 silly gunzTarPerm extractEntry loc/lcl/FRA/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+209 silly gunzTarPerm extractEntry loc/lcl/ITA/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+210 silly gunzTarPerm extractEntry loc/lcl/JPN/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+211 silly gunzTarPerm extractEntry loc/lcl/KOR/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+212 silly gunzTarPerm extractEntry loc/lcl/PLK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+213 silly gunzTarPerm extractEntry loc/lcl/PTB/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+214 silly gunzTarPerm extractEntry loc/lcl/RUS/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+215 silly gunzTarPerm extractEntry loc/lcl/TRK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+216 silly gunzTarPerm extractEntry loc/lcl/CHS/Targets/TypeScriptProjectProperties.xaml.lcl
+217 silly gunzTarPerm extractEntry loc/lcl/CHT/Targets/TypeScriptProjectProperties.xaml.lcl
+218 silly gunzTarPerm extractEntry loc/lcl/CSY/Targets/TypeScriptProjectProperties.xaml.lcl
+219 silly gunzTarPerm extractEntry loc/lcl/DEU/Targets/TypeScriptProjectProperties.xaml.lcl
+220 silly gunzTarPerm extractEntry loc/lcl/ESN/Targets/TypeScriptProjectProperties.xaml.lcl
+221 silly gunzTarPerm extractEntry loc/lcl/FRA/Targets/TypeScriptProjectProperties.xaml.lcl
+222 silly gunzTarPerm extractEntry loc/lcl/ITA/Targets/TypeScriptProjectProperties.xaml.lcl
+223 silly gunzTarPerm extractEntry loc/lcl/JPN/Targets/TypeScriptProjectProperties.xaml.lcl
+224 silly gunzTarPerm extractEntry loc/lcl/KOR/Targets/TypeScriptProjectProperties.xaml.lcl
+225 silly gunzTarPerm extractEntry loc/lcl/PLK/Targets/TypeScriptProjectProperties.xaml.lcl
+226 silly gunzTarPerm extractEntry loc/lcl/PTB/Targets/TypeScriptProjectProperties.xaml.lcl
+227 silly gunzTarPerm extractEntry loc/lcl/RUS/Targets/TypeScriptProjectProperties.xaml.lcl
+228 silly gunzTarPerm extractEntry loc/lcl/TRK/Targets/TypeScriptProjectProperties.xaml.lcl
+229 silly gunzTarPerm extractEntry AUTHORS.md
+230 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+231 silly gunzTarPerm extractEntry lib/README.md
+232 silly gunzTarPerm extractEntry README.md
+233 silly gunzTarPerm extractEntry SECURITY.md
+234 silly gunzTarPerm extractEntry lib/lib.d.ts
+235 silly gunzTarPerm extractEntry lib/lib.dom.d.ts
+236 silly gunzTarPerm extractEntry lib/lib.dom.iterable.d.ts
+237 silly gunzTarPerm extractEntry lib/lib.es2015.collection.d.ts
+238 silly gunzTarPerm extractEntry lib/lib.es2015.core.d.ts
+239 silly gunzTarPerm extractEntry lib/lib.es2015.d.ts
+240 silly gunzTarPerm extractEntry lib/lib.es2015.generator.d.ts
+241 silly gunzTarPerm extractEntry lib/lib.es2015.iterable.d.ts
+242 silly gunzTarPerm extractEntry lib/lib.es2015.promise.d.ts
+243 silly gunzTarPerm extractEntry lib/lib.es2015.proxy.d.ts
+244 silly gunzTarPerm extractEntry lib/lib.es2015.reflect.d.ts
+245 silly gunzTarPerm extractEntry lib/lib.es2015.symbol.d.ts
+246 silly gunzTarPerm extractEntry lib/lib.es2015.symbol.wellknown.d.ts
+247 silly gunzTarPerm extractEntry lib/lib.es2016.array.include.d.ts
+248 silly gunzTarPerm extractEntry lib/lib.es2016.d.ts
+249 silly gunzTarPerm extractEntry lib/lib.es2016.full.d.ts
+250 silly gunzTarPerm extractEntry lib/lib.es2017.d.ts
+251 silly gunzTarPerm extractEntry lib/lib.es2017.full.d.ts
+252 silly gunzTarPerm extractEntry lib/lib.es2017.intl.d.ts
+253 silly gunzTarPerm extractEntry lib/lib.es2017.object.d.ts
+254 silly gunzTarPerm extractEntry lib/lib.es2017.sharedmemory.d.ts
+255 silly gunzTarPerm extractEntry lib/lib.es2017.string.d.ts
+256 silly gunzTarPerm extractEntry lib/lib.es2017.typedarrays.d.ts
+257 silly gunzTarPerm extractEntry lib/lib.es2018.asyncgenerator.d.ts
+258 silly gunzTarPerm extractEntry lib/lib.es2018.asynciterable.d.ts
+259 silly gunzTarPerm extractEntry lib/lib.es2018.d.ts
+260 silly gunzTarPerm extractEntry lib/lib.es2018.full.d.ts
+261 silly gunzTarPerm extractEntry lib/lib.es2018.intl.d.ts
+262 silly gunzTarPerm extractEntry lib/lib.es2018.promise.d.ts
+263 silly gunzTarPerm extractEntry lib/lib.es2018.regexp.d.ts
+264 silly gunzTarPerm extractEntry lib/lib.es2019.array.d.ts
+265 silly gunzTarPerm extractEntry lib/lib.es2019.d.ts
+266 silly gunzTarPerm extractEntry lib/lib.es2019.full.d.ts
+267 silly gunzTarPerm extractEntry lib/lib.es2019.object.d.ts
+268 silly gunzTarPerm extractEntry lib/lib.es2019.string.d.ts
+269 silly gunzTarPerm extractEntry lib/lib.es2019.symbol.d.ts
+270 silly gunzTarPerm extractEntry lib/lib.es2020.bigint.d.ts
+271 silly gunzTarPerm extractEntry lib/lib.es2020.d.ts
+272 silly gunzTarPerm extractEntry lib/lib.es2020.full.d.ts
+273 silly gunzTarPerm extractEntry lib/lib.es2020.intl.d.ts
+274 silly gunzTarPerm extractEntry lib/lib.es2020.promise.d.ts
+275 silly gunzTarPerm extractEntry lib/lib.es2020.sharedmemory.d.ts
+276 silly gunzTarPerm extractEntry lib/lib.es2020.string.d.ts
+277 silly gunzTarPerm extractEntry lib/lib.es2020.symbol.wellknown.d.ts
+278 silly gunzTarPerm extractEntry lib/lib.es2021.d.ts
+279 silly gunzTarPerm extractEntry lib/lib.es2021.full.d.ts
+280 silly gunzTarPerm extractEntry lib/lib.es2021.intl.d.ts
+281 silly gunzTarPerm extractEntry lib/lib.es2021.promise.d.ts
+282 silly gunzTarPerm extractEntry lib/lib.es2021.string.d.ts
+283 silly gunzTarPerm extractEntry lib/lib.es2021.weakref.d.ts
+284 silly gunzTarPerm extractEntry lib/lib.es2022.array.d.ts
+285 silly gunzTarPerm extractEntry lib/lib.es2022.d.ts
+286 silly gunzTarPerm extractEntry lib/lib.es2022.error.d.ts
+287 silly gunzTarPerm extractEntry lib/lib.es2022.full.d.ts
+288 silly gunzTarPerm extractEntry lib/lib.es2022.object.d.ts
+289 silly gunzTarPerm extractEntry lib/lib.es2022.string.d.ts
+290 silly gunzTarPerm extractEntry lib/lib.es5.d.ts
+291 silly gunzTarPerm extractEntry lib/lib.es6.d.ts
+292 silly gunzTarPerm extractEntry lib/lib.esnext.d.ts
+293 silly gunzTarPerm extractEntry lib/lib.esnext.full.d.ts
+294 silly gunzTarPerm extractEntry lib/lib.esnext.intl.d.ts
+295 silly gunzTarPerm extractEntry lib/lib.esnext.promise.d.ts
+296 silly gunzTarPerm extractEntry lib/lib.esnext.string.d.ts
+297 silly gunzTarPerm extractEntry lib/lib.esnext.weakref.d.ts
+298 silly gunzTarPerm extractEntry lib/lib.scripthost.d.ts
+299 silly gunzTarPerm extractEntry lib/lib.webworker.d.ts
+300 silly gunzTarPerm extractEntry lib/lib.webworker.importscripts.d.ts
+301 silly gunzTarPerm extractEntry lib/lib.webworker.iterable.d.ts
+302 silly gunzTarPerm extractEntry lib/protocol.d.ts
+303 silly gunzTarPerm extractEntry lib/tsserverlibrary.d.ts
+304 silly gunzTarPerm extractEntry lib/typescript.d.ts
+305 silly gunzTarPerm extractEntry lib/typescriptServices.d.ts
+306 silly gunzTarPerm extractEntry CopyrightNotice.txt
+307 silly gunzTarPerm extractEntry LICENSE.txt
+308 silly gunzTarPerm extractEntry ThirdPartyNoticeText.txt
+309 silly gentlyRm /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/typescript-8c7d4fd2/node_modules is being purged
+310 verbose gentlyRm don't care about contents; nuking /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/typescript-8c7d4fd2/node_modules
+311 silly doParallel preinstall 2
+312 silly preinstall babel@6.23.0 /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/babel-4bec5f13
+313 info lifecycle babel@6.23.0~preinstall: babel@6.23.0
+314 silly preinstall typescript@4.6.3 /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging/typescript-8c7d4fd2
+315 info lifecycle typescript@4.6.3~preinstall: typescript@4.6.3
+316 silly lifecycle babel@6.23.0~preinstall: no script for preinstall, continuing
+317 silly lifecycle typescript@4.6.3~preinstall: no script for preinstall, continuing
+318 silly doReverseSerial remove 0
+319 silly doSerial move 0
+320 silly doSerial finalize 2
+321 silly finalize /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/babel
+322 verbose unlock done using /home/ac0chisse/.npm/_locks/staging-36582c8efccaf1bd.lock for /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.staging
+323 silly rollbackFailedOptional Starting
+324 silly rollbackFailedOptional Finishing
+325 silly runTopLevelLifecycles Starting
+326 silly runTopLevelLifecycles Finishing
+327 silly install printInstalled
+328 warn enoent ENOENT: no such file or directory, open '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/package.json'
+329 warn 0x04-TypeScript No description
+330 warn 0x04-TypeScript No repository field.
+331 warn 0x04-TypeScript No README data
+332 warn 0x04-TypeScript No license field.
+333 verbose stack Error: EACCES: permission denied, rename '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/babel' -> '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.babel.DELETE'
+333 verbose stack     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+333 verbose stack     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+333 verbose stack     at FSReqWrap.oncomplete (fs.js:153:5)
+333 verbose stack
+333 verbose stack Error: EACCES: permission denied, rename '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/babel' -> '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.babel.DELETE'
+334 verbose cwd /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript
+335 error Linux 4.4.0-22000-Microsoft
+336 error argv "/usr/bin/node" "/usr/bin/npm" "install" "typescript"
+337 error node v8.10.0
+338 error npm  v3.5.2
+339 error path /home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/babel
+340 error code EACCES
+341 error errno -13
+342 error syscall rename
+343 error Error: EACCES: permission denied, rename '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/babel' -> '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.babel.DELETE'
+343 error     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+343 error     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+343 error     at FSReqWrap.oncomplete (fs.js:153:5)
+343 error
+343 error Error: EACCES: permission denied, rename '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/babel' -> '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.babel.DELETE'
+343 error  Error: EACCES: permission denied, rename '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/babel' -> '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.babel.DELETE'
+343 error     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+343 error     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+343 error     at FSReqWrap.oncomplete (fs.js:153:5)
+343 error
+343 error Error: EACCES: permission denied, rename '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/babel' -> '/home/ac0chisse/Holberton/web_r/holbertonschool-web_react/0x04-TypeScript/node_modules/.babel.DELETE'
+344 error Please try running this command again as root/Administrator.
+345 verbose exit [ -13, true ]
