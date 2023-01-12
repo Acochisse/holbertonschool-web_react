@@ -1,1 +1,0 @@
-This project is related to project 1755 - 0x01-react_intro
