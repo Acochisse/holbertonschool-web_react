@@ -10,7 +10,8 @@ module.exports = {
 	devServer: {
 		static: path.resolve(__dirname, '../dist'),
 		compress: true,
-		hot: true
+		hot: true,
+		open: true
 	},
 	devtool: 'inline-source-map',
 	module: {
