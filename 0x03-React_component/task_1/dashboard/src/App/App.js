@@ -6,7 +6,7 @@ import Notifications from '../Notifications/Notifications.js';
 import Login from '../Login/Login.js';
 import Footer from '../Footer/Footer.js';
 import Header from '../Header/Header.js';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import CourseList from '../CourseList/CourseList.js';
 
 const listNotification = [
@@ -47,8 +47,8 @@ class App extends React.Component {
 
 
 App.propTypes = {
-  isLoggedIn: propTypes.bool,
-	logOut: propTypes.func,
+  isLoggedIn: PropTypes.bool,
+	logOut: PropTypes.func,
 };
 
 App.defaultProps = {
