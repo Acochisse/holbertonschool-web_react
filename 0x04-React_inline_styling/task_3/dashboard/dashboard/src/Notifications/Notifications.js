@@ -1,11 +1,25 @@
 import React from "react";
-import "./Notifications.css";
-import NotificationItem from './NotificationItem';
+import NotificationItem from "./NotificationItem";
 import close_icon from '../assets/close-icon.png';
 import { getLatestNotification } from '../utils/utils';
 import PropTypes from 'prop-types';
+import { StyleSheet, css } from 'aphrodite';
 
-
+const styles = StyleSheet.create({
+	Notifications: {
+		border: '2px solid #e01d1d',
+		padding: '5px',
+		'@media (max-width: 900px)': {
+			fontSize: "20",
+			height: "100%",
+			width: "100%",
+			backgroundColor: "white",
+			position: "fixed",
+			top: "0",
+			left: "0",
+			zIndex: "1000",
+		},
+	}});
 
 
 class Notifications extends React.Component {
@@ -18,13 +32,14 @@ class Notifications extends React.Component {
 		return False;
 	}
 	render() {
+		if (this.props.displayDrawer) {
 	return (
 		<>
 			<div className="menuItem">
 				<p>Your notifications</p>
 			</div>
 			{this.props.displayDrawer && (
-				<div className="Notifications">
+				<div className={`Notification ${css(styles.Notifications)}`}>
 					<button style={{
 						position: 'absolute',
 						background: 'transparent',
@@ -53,9 +68,17 @@ class Notifications extends React.Component {
 					</ul>
 				</div>
 			)}
+			
 		</>
-	);
+	)
+		} else {
+      return (
+			<div>
+			<p>Your notifications</p>
+			</div>);
+    
 }
+	}
 }
 function markAsRead(id) {
 	console.log(`Notification ${id} has been marked as read`);

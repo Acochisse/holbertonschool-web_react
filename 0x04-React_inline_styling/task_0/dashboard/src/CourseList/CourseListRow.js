@@ -2,14 +2,15 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 
-
+const Tstyles = { backgroundColor: isHeader ? '#deb5b545' : '#f5f5f5ab' };
 
 function CourseListRow({
    isHeader,
     textFirstCell,
      textSecondCell }) {
     return (
-      <tr style={{ backgroundColor: isHeader ? '#deb5b545' : 'white' }}>
+      
+      <tr styles={{Tstyles}}>
         {isHeader && textSecondCell === null && (
           <th id="top-line" colSpan="2">{textFirstCell}</th>
         )}
