@@ -1,5 +1,11 @@
 import {fromJS, getIn } from 'immutable';
 
-export default function accessImmutableObject(object, array) {
-  return getIn([array, object])
+
+//Given the function below, edit it to return the value of the object at the defined path
+// The first argument is a plain object
+// The second one is an array containing a list of a path to some key in the object
+// The function should return the value of the object at the defined path
+
+export default function accessImmutableObject2(object, array) {
+  return fromJS(object).getIn(array);
 }
